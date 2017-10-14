@@ -1,0 +1,25 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <title>B&amp;W Flame Logo black</title>
+ <defs>
+  <linearGradient id="svg_203" x2="0.480469" y2="0.816406" x1="0.484375" y1="0.074219">
+   <stop stop-color="#ffffff" stop-opacity="0.996094" offset="0.007813"/>
+   <stop stop-color="#000000" stop-opacity="0.996094" offset="1"/>
+   <stop stop-color="#bf0000" stop-opacity="0.996094" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_204" x2="0.480469" y2="0.816406" x1="0.484375" y1="0.074219">
+   <stop stop-color="#ffffff" stop-opacity="0.996094" offset="0.007813"/>
+   <stop stop-color="#000000" stop-opacity="0.996094" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_205" x2="0.480469" y2="0.816406" x1="0.484375" y1="0.074219">
+   <stop stop-color="#ffffff" stop-opacity="0.996094" offset="0.007813"/>
+   <stop stop-color="#000000" stop-opacity="0.996094" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="Arial" font-size="24" id="svg_12" y="231" x="71" opacity="0.5" stroke-linecap="square" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#096388" fill="#000000"/>
+  <path id="svg_24" d="m187,42.5c32.56665,40.133339 -16.166656,101 -76,203.5c-59.83334,102.5 74.000031,154.166809 84.666702,155.166809c10.666672,1 -52.000031,-39.166809 -32.166702,-100.166809c19.833328,-61 67.53334,-95.533401 79.5,-142.100052c11.96666,-46.56665 -88.56665,-156.533278 -56,-116.399948z" stroke-linecap="square" stroke-linejoin="round" stroke-width="0" stroke="url(#svg_203)" fill="#000000"/>
+  <path transform="rotate(-3.26396, 229.859, 255.844)" id="svg_25" d="m261.559692,157.453903c2.86554,6.775391 3.694244,18.909378 -0.716064,32.923737c-4.410309,14.014359 -10.059509,24.309097 -22.149902,41.005936c-12.090393,16.696838 -23.670242,27.389099 -47.303604,63.122498c-23.633362,35.733398 17.156998,74.647736 9.86441,61.651093c-7.292587,-12.996643 5.297958,-36.780243 17.459122,-52.518738c12.161163,-15.738495 20.191315,-22.920929 32.048157,-38.119965c11.856842,-15.199036 23.68692,-39.45433 24.555084,-53.205811c0.868164,-13.75148 0.953461,-18.142258 -3.635101,-33.244324c-4.588593,-15.102066 -15.85321,-35.165222 -10.122101,-21.614426z" stroke-linecap="square" stroke-linejoin="null" stroke-width="0" stroke="url(#svg_204)" fill="#000000"/>
+  <path id="svg_26" d="m228.62088,392.224854c-5.172333,9.162567 -6.648209,-19.291168 2.557373,-43.922394c9.205582,-24.631226 38.26416,-46.296143 50.758484,-69.59668c12.494354,-23.300568 20.384644,-58.53685 10.367523,-77.282013c-10.017059,-18.745163 1.768799,2.157471 10.212433,15.570419c8.443665,13.412933 13.19574,23.269653 12.984589,45.202988c-0.211121,21.93335 -5.942566,47.649567 -43.783234,81.277832c-37.840683,33.628296 -37.924835,39.58728 -43.097168,48.749847z" stroke-linecap="square" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="url(#svg_205)" fill="#000000"/>
+ </g>
+</svg>
