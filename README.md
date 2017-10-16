@@ -26,7 +26,7 @@ Just add the following HTML. This will make the text **white**. As soon as the u
 ```html
   <ink data-type="sharp-hover">My Invisible Text</ink>
 ```
-
+ 
 Or, if you want the text to _fade_ into view, do this instead:
 
 ```html
