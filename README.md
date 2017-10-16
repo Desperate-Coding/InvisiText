@@ -24,7 +24,12 @@ You can play with Balloon.css here: https://codepen.io/slate-coding/pen/qXMNwx
 
 ### Installation
 
-**CDN version coming soon:**
+**CDN version:**
+Simply add this reference to your HTML:
+
+```html
+<link rel="stylesheet" href="http://slate-coding.zohosites.com/files/cdn/invisible-ink.min.css" />
+```
 
 <br />
 <br />
