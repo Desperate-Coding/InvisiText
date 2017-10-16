@@ -1,19 +1,33 @@
 <div><img src="https://raw.githubusercontent.com/SlateCoding/Invisible-Ink/master/logo/so-icon.png" width="100" height="100" style="float:left;" /><h1>nvisible Ink<h1></div>
 
+<br />
+<br />
+
 ## Hide
 Invisible Ink lets hide text (and elements) with just a bit of CSS.
+
+<br />
+<br />
 
 ## Demo & Playground
 
 You can play with Balloon.css here: https://codepen.io/slate-coding/pen/qXMNwx
+
+
+<br />
+<br />
+
 ## Usage
+
+<br />
+<br />
 
 ### Installation
 
-**CDN version Coming soon:**
-```html
+**CDN version coming soon:**
 
-```
+<br />
+<br />
 
 **Manually:**
 Simply download `invisible-ink.min.css` from this repository and add it to your HTML. e.g.
@@ -21,6 +35,9 @@ Simply download `invisible-ink.min.css` from this repository and add it to your 
 ```html
 <link rel="stylesheet" href="path/to/invisible-ink.min.css">
 ```
+
+<br />
+<br />
 
 
 ### Contributing
