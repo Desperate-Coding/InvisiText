@@ -1,4 +1,4 @@
-<div><img src="https://raw.githubusercontent.com/SlateCoding/Invisible-Ink/master/logo/so-icon.png" width="100" height="100" style="float:left;" /><h1>nvisible Ink<h1></div>
+<div><img src="https://raw.githubusercontent.com/SlateCoding/Invisible-Ink/master/logo/so-icon.png" width="100" height="100" style="float:left;" /><h1>Invisible Ink<h1></div>
 
 <br />
 <br />
