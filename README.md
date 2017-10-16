@@ -20,7 +20,7 @@ You can play with Balloon.css here: [https://codepen.io/slate-coding/pen/qXMNwx]
 
 ### Documentation
 
-**Invisible Text**\s\s
+**Invisible Text**  
 Just add the following HTML. This will make the text **white**. As soon as the user hovers over it, the text will appear.
 
 ```html
@@ -33,7 +33,7 @@ Or, if you want the text to _fade_ into view, do this instead:
   <ink data-type="ease-in" data-border="solid">Invisible Text That Fades Into View...</ink>
 ```
 
-**Blurred Text**\s\s
+**Blurred Text**  
 Add the following. This will blur the text in all browsers **except in IE and Edge**. When the blurred text is hovered it instantly becomes readable.
 
 ```html
@@ -46,7 +46,7 @@ If you want the blurred text to _fade_ into view, then:
 <ink data-type="blurred ease-in">Yaay I Have Blurred Text</ink>
 ```
 
-**Redacted Text**\s\s
+**Redacted Text**  
 This time, instead of Invisible Text or Blurred Text, we will make the text look as if some one went over the text with a permanent marker.
 
 ```html
@@ -59,7 +59,7 @@ Making it fade into view:
   <ink data-type="redacted">Meeeeooooww Meow Meow</ink> 
 ```
 
-**Adding a Border to the underside of the Text**\s\s
+**Adding a Border to the underside of the Text**  
 If you want a border under your text (see  the [demo](https://codepen.io/slate-coding/pen/qXMNwx) to see how it would look), then just add `data-border="solid"` to the `ink` element. Like this:
 
 ```html
@@ -77,7 +77,7 @@ If you want a border under your text (see  the [demo](https://codepen.io/slate-c
 
 ### Installation
 
-**CDN version:**\s\s
+**CDN version:**  
 Simply add this reference to your HTML:
 
 ```html
@@ -87,7 +87,7 @@ Simply add this reference to your HTML:
 <br />
 <br />
 
-**Manually:**\s\s
+**Manually:**  
 Simply download `invisible-ink.min.css` from this repository and add it to your HTML. e.g.
 
 ```html
