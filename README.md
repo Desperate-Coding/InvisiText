@@ -10,9 +10,9 @@
 <p><br />
 <br /></p>
 
-<h2>Demo &amp; Playground</h2>
+<h2>Playground</h2>
 
-<p>You can play with Balloon.css here: <a href="https://codepen.io/slate-coding/pen/qXMNwx">https://codepen.io/slate-coding/pen/qXMNwx</a></p>
+<p>You can play with Invisible Ink here: <a href="https://codepen.io/slate-coding/pen/qXMNwx">https://codepen.io/slate-coding/pen/qXMNwx</a></p>
 
 <p><br />
 <br /></p>
