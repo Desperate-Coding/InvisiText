@@ -1,10 +1,11 @@
-# Invisible Ink
+![Logo](https://raw.githubusercontent.com/eligeorgios/InvisiText/master/logo/logo-128.png)
+---
 
-Invisible Ink lets hide text (and elements) with just a bit of CSS.
+InvisiText lets you hide text (and elements) with just a bit of CSS.
 
 ## Playground
 
-You can play with Invisible Ink here: [https://codepen.io/desperate-coding/pen/qXMNwx](https://codepen.io/slate-coding/pen/qXMNwx)
+You can play around with Invisible Ink here: [https://codepen.io/desperate-coding/pen/qXMNwx](https://codepen.io/slate-coding/pen/qXMNwx)
 
 ## Usage
 
@@ -48,7 +49,7 @@ If you want a border under your text (see the [demo](https://codepen.io/slate-co
 
     <ink data-border="solid" data-type="sharp-hover">My Invisible Text</ink>
 
-### Installation
+## Installation
 
 **CDN version:**  
 Simply add this reference to your HTML:
@@ -60,7 +61,7 @@ Simply download `invisible-ink.min.css` from this repository and add it to your 
 
     <link rel="stylesheet" href="path/to/invisible-ink.min.css">
 
-### Contributing
+## Contributing
 
 To contribute to this project, you must:
 
@@ -70,6 +71,6 @@ To contribute to this project, you must:
 4.  Submit a pull request.
 
 
-### Notes
+## Notes
 
 Note 1. InvisiText `blurred` does not work on IE or Edge yet.
