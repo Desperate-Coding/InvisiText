@@ -58,12 +58,18 @@ Simply add this reference to your HTML:
 **Manually:**  
 Simply download `invisible-ink.min.css` from this repository and add it to your HTML. e.g.
 
-    <link rel="stylesheet" href="path/to/invisible-ink-0.0.2.min.css">
+    <link rel="stylesheet" href="path/to/invisible-ink.min.css">
 
 ### Contributing
 
 To contribute to this project, you must:
 
-1.  Fork this repo.
+1.  Clone this repo.
 2.  Make your changes.
-3.  Submit a pull request.
+3.  Carefully test out your changes in all major browsers (eg. IE, Edge, Chrome, Opera, Firefox, Tor, etc.)
+4.  Submit a pull request.
+
+
+### Notes
+
+Note 1. InvisiText `blurred` does not work on IE or Edge yet.
