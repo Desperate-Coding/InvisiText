@@ -1,97 +1,69 @@
-<h1>Invisible Ink</h1>
+# Invisible Ink
 
-<p><br />
-<br /></p>
+Invisible Ink lets hide text (and elements) with just a bit of CSS.
 
-<h2>Hide</h2>
+## Playground
 
-<p>Invisible Ink lets hide text (and elements) with just a bit of CSS.</p>
+You can play with Invisible Ink here: [https://codepen.io/desperate-coding/pen/qXMNwx](https://codepen.io/slate-coding/pen/qXMNwx)
 
-<p><br />
-<br /></p>
+## Usage
 
-<h2>Playground</h2>
+### Documentation
 
-<p>You can play with Invisible Ink here: <a href="https://codepen.io/slate-coding/pen/qXMNwx">https://codepen.io/slate-coding/pen/qXMNwx</a></p>
+**Invisible Text**  
+Just add the following HTML. This will make the text **white**. As soon as the user hovers over it, the text will appear.
 
-<p><br />
-<br /></p>
+      <ink data-type="sharp-hover">My Invisible Text</ink>
 
-<h2>Usage</h2>
+Or, if you want the text to _fade_ into view, do this instead:
 
-<h3>Documentation</h3>
+      <ink data-type="ease-in" data-border="solid">Invisible Text That Fades Into View...</ink>
 
-<p><strong>Invisible Text</strong><br>
-Just add the following HTML. This will make the text <strong>white</strong>. As soon as the user hovers over it, the text will appear.</p>
+**Blurred Text**  
+Add the following. This will blur the text in all browsers **except in IE and Edge**. When the blurred text is hovered it instantly becomes readable.
 
-<pre><code class="html">  &lt;ink data-type=&quot;sharp-hover&quot;&gt;My Invisible Text&lt;/ink&gt;
-</code></pre>
+    <ink data-type="blurred">Blurred Text!!!</ink>
 
-<p>Or, if you want the text to <em>fade</em> into view, do this instead:</p>
+If you want the blurred text to _fade_ into view, then:
 
-<pre><code class="html">  &lt;ink data-type=&quot;ease-in&quot; data-border=&quot;solid&quot;&gt;Invisible Text That Fades Into View...&lt;/ink&gt;
-</code></pre>
+    <ink data-type="blurred ease-in">Yaay I Have Blurred Text</ink>
 
-<p><strong>Blurred Text</strong><br>
-Add the following. This will blur the text in all browsers <strong>except in IE and Edge</strong>. When the blurred text is hovered it instantly becomes readable.</p>
+**Redacted Text**  
+This time, instead of Invisible Text or Blurred Text, we will make the text look as if some one went over the text with a permanent marker.
 
-<pre><code class="html">&lt;ink data-type=&quot;blurred&quot;&gt;Blurred Text!!!&lt;/ink&gt;
-</code></pre>
+      <ink data-type="redacted">Permanent Markers Here</ink> 
 
-<p>If you want the blurred text to <em>fade</em> into view, then:</p>
+Making it fade into view:
 
-<pre><code class="html">&lt;ink data-type=&quot;blurred ease-in&quot;&gt;Yaay I Have Blurred Text&lt;/ink&gt;
-</code></pre>
+      <ink data-type="redacted">Meeeeooooww Meow Meow</ink> 
 
-<p><strong>Redacted Text</strong><br>
-This time, instead of Invisible Text or Blurred Text, we will make the text look as if some one went over the text with a permanent marker.</p>
+**Adding a Border to the underside of the Text**  
+If you want a border under your text (see the [demo](https://codepen.io/slate-coding/pen/qXMNwx) to see how it would look), then just add `data-border="solid"` to the `ink` element. Like this:
 
-<pre><code class="html">  &lt;ink data-type=&quot;redacted&quot;&gt;Permanent Markers Here&lt;/ink&gt; 
-</code></pre>
+    <ink data-border="solid" data-type="redacted">Meeeeooooww Meow Meow</ink> 
 
-<p>Making it fade into view:</p>
 
-<pre><code class="html">  &lt;ink data-type=&quot;redacted&quot;&gt;Meeeeooooww Meow Meow&lt;/ink&gt; 
-</code></pre>
+    <ink data-border="solid" data-type="blurred">Blurred Text!!!</ink>
 
-<p><strong>Adding a Border to the underside of the Text</strong><br>
-If you want a border under your text (see  the <a href="https://codepen.io/slate-coding/pen/qXMNwx">demo</a> to see how it would look), then just add <code>data-border=&quot;solid&quot;</code> to the <code>ink</code> element. Like this:</p>
 
-<pre><code class="html">  &lt;ink data-border=&quot;solid&quot; data-type=&quot;redacted&quot;&gt;Meeeeooooww Meow Meow&lt;/ink&gt; 
-</code></pre>
+    <ink data-border="solid" data-type="sharp-hover">My Invisible Text</ink>
 
-<pre><code class="html">&lt;ink data-border=&quot;solid&quot; data-type=&quot;blurred&quot;&gt;Blurred Text!!!&lt;/ink&gt;
-</code></pre>
+### Installation
 
-<pre><code class="html">  &lt;ink data-border=&quot;solid&quot; data-type=&quot;sharp-hover&quot;&gt;My Invisible Text&lt;/ink&gt;
-</code></pre>
+**CDN version:**  
+Simply add this reference to your HTML:
 
-<h3>Installation</h3>
+    <CDN-COMING-SOON-ON-JSDELIVR/>
 
-<p><strong>CDN version:</strong><br>
-Simply add this reference to your HTML:</p>
+**Manually:**  
+Simply download `invisible-ink.min.css` from this repository and add it to your HTML. e.g.
 
-<pre><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;http://slate-coding.zohosites.com/files/cdn/invisible-ink.min.css&quot; /&gt;
-</code></pre>
+    <link rel="stylesheet" href="path/to/invisible-ink-0.0.2.min.css">
 
-<p><br />
-<br /></p>
+### Contributing
 
-<p><strong>Manually:</strong><br>
-Simply download <code>invisible-ink.min.css</code> from this repository and add it to your HTML. e.g.</p>
+To contribute to this project, you must:
 
-<pre><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;path/to/invisible-ink.min.css&quot;&gt;
-</code></pre>
-
-<p><br />
-<br /></p>
-
-<h3>Contributing</h3>
-
-<p>To contribute to this project, you must:</p>
-
-<ol>
-<li>Fork this repo.</li>
-<li>Make your changes.</li>
-<li>Submit a pull request.</li>
-</ol>
+1.  Fork this repo.
+2.  Make your changes.
+3.  Submit a pull request.
