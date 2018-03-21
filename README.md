@@ -1,7 +1,7 @@
 ![Logo](https://raw.githubusercontent.com/eligeorgios/InvisiText/master/logo/logo-128.png)
 ---
 
-InvisiText lets you hide text (and elements) with just a bit of CSS.
+InvisiText lets you hide text with just a bit of CSS.
 
 ## Playground
 
@@ -57,9 +57,9 @@ Simply add this reference to your HTML:
     <CDN-COMING-SOON-ON-JSDELIVR/>
 
 **Manually:**  
-Simply download `invisible-ink.min.css` from this repository and add it to your HTML. e.g.
+Simply download `invisitext.min.css` from this repository and add it to your HTML. e.g.
 
-    <link rel="stylesheet" href="path/to/invisible-ink.min.css">
+    <link rel="stylesheet" href="path/to/invisitext.min.css">
 
 ## Contributing
 
