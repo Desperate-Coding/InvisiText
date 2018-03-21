@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://eligeorgios.github.io/InvisiText/ -->
+<html lang="en-US" class="gr__eligeorgios_github_io"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>InvisiText</title>
+<meta property="og:title" content="InvisiText">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Want to hide a spoiler? Want to make your website super-cool? Use InvisiText (formerly Invisible Ink) to spiff up a page. Hover over the missing words to see them. Works on mobile devices.">
+<meta property="og:description" content="Want to hide a spoiler? Want to make your website super-cool? Use InvisiText (formerly Invisible Ink) to spiff up a page. Hover over the missing words to see them. Works on mobile devices.">
+<link rel="canonical" href="https://eligeorgios.github.io/InvisiText/">
+<meta property="og:url" content="https://eligeorgios.github.io/InvisiText/">
+<meta property="og:site_name" content="InvisiText">
+<script type="application/ld+json">
+{"name":"InvisiText","description":"Want to hide a spoiler? Want to make your website super-cool? Use InvisiText (formerly Invisible Ink) to spiff up a page. Hover over the missing words to see them. Works on mobile devices.","@type":"WebSite","url":"https://eligeorgios.github.io/InvisiText/","headline":"InvisiText","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="./InvisiText_files/style.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./InvisiText_files/invisitext.min.css" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body data-gr-c-s-loaded="true">
+    <div class="wrapper">
+      <header>
+        <h1><img src="./InvisiText_files/logo-128.png" width="200" height="200" alt="Logo" /></h1>
+        <p>Want to hide a spoiler? Want to make your website super-cool? Use InvisiText to spiff up a page. Hover over the missing words to see them.</p>
+
+          <p class="view"><a href="https://github.com/eligeorgios/InvisiText">View the Project on GitHub <small></small></a></p>
+
+      </header>
+      <section>
+
+      <h1>InvisiText</h1>
+
+<p>InvisiText lets you hide text with just a bit of CSS.</p>
+
+<h2 id="playground">Playground</h2>
+
+<p>You can play around with Invisible Ink here: <a href="https://codepen.io/slate-coding/pen/qXMNwx">https://codepen.io/desperate-coding/pen/qXMNwx</a></p>
+<br />
+<iframe height='450' scrolling='no' title='InvisiText - Invisible Ink CSS Library' src='https://codepen.io/desperate-coding/embed/qXMNwx/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/desperate-coding/pen/qXMNwx/'>InvisiText - Invisible Ink CSS Library</a> by Desperate Coding (<a href='https://codepen.io/desperate-coding'>@desperate-coding</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<br/><br/><br/>
+<h2 id="usage">Usage</h2>
+
+<h3 id="documentation">Documentation</h3>
+
+<p><strong>Invisible Text</strong><br>
+Just add the following HTML. This will make the text <strong>white</strong>. As soon as the user hovers over it, the text will appear.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;ink data-type="sharp-hover"&gt;My Invisible Text&lt;/ink&gt;
+</code></pre></div></div>
+<br />
+
+<p>Or, if you want the text to <em>fade</em> into view, do this instead:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;ink data-type="ease-in" data-border="solid"&gt;Invisible Text That Fades Into View...&lt;/ink&gt;
+</code></pre></div></div>
+
+<p><strong>Blurred Text</strong><br>
+Add the following. This will blur the text in all browsers <strong>except in IE and Edge</strong>. When the blurred text is hovered it instantly becomes readable.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ink data-type="blurred"&gt;Blurred Text!!!&lt;/ink&gt;
+</code></pre></div></div>
+
+<p>If you want the blurred text to <em>fade</em> into view, then:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ink data-type="blurred ease-in"&gt;Yaay I Have Blurred Text&lt;/ink&gt;
+</code></pre></div></div>
+
+<p><strong>Redacted Text</strong><br>
+This time, instead of Invisible Text or Blurred Text, we will make the text look as if some one went over the text with a permanent marker.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;ink data-type="redacted"&gt;Permanent Markers Here&lt;/ink&gt; 
+</code></pre></div></div>
+
+<p>Making it fade into view:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;ink data-type="redacted"&gt;Meeeeooooww Meow Meow&lt;/ink&gt; 
+</code></pre></div></div>
+
+<p><strong>Adding a Border to the underside of the Text</strong><br>
+If you want a border under your text (see the <a href="https://codepen.io/slate-coding/pen/qXMNwx">demo</a> to see how it would look), then just add <code class="highlighter-rouge">data-border="solid"</code> to the <code class="highlighter-rouge">ink</code> element. Like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ink data-border="solid" data-type="redacted"&gt;Meeeeooooww Meow Meow&lt;/ink&gt; 
+
+
+&lt;ink data-border="solid" data-type="blurred"&gt;Blurred Text!!!&lt;/ink&gt;
+
+
+&lt;ink data-border="solid" data-type="sharp-hover"&gt;My Invisible Text&lt;/ink&gt;
+</code></pre></div></div>
+
+<h2 id="installation">Installation</h2>
+
+<p><strong>CDN version:</strong><br>
+Simply add this reference to your HTML:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;CDN-COMING-SOON-ON-JSDELIVR/&gt;
+</code></pre></div></div>
+
+<p><strong>Manually:</strong><br>
+Simply download <code class="highlighter-rouge">invisible-ink.min.css</code> from this repository and add it to your HTML. e.g.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;link rel="stylesheet" href="path/to/invisible-ink.min.css"&gt;
+</code></pre></div></div>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>To contribute to this project, you must:</p>
+
+<ol>
+  <li>Clone this repo.</li>
+  <li>Make your changes in the various files and cobine them into to the combined CSS file.</li>
+  <li>Carefully test out your changes in all major browsers (eg. IE, Edge, Chrome, Opera, Firefox, Tor, etc.)</li>
+  <li>Submit a pull request.</li>
+</ol>
+
+<h2 id="notes">Notes</h2>
+
+<p>Note 1. InvisiText <code class="highlighter-rouge">blurred</code> does not work on IE or Edge yet.</p>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/eligeorgios">eligeorgios</a></p>
+        
+        <p><small>Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="./InvisiText_files/scale.fix.js.download"></script>
+
+
+  
+  
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
