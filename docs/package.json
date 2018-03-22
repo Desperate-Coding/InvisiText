@@ -1,0 +1,18 @@
+{
+  "name": "invisitext",
+  "version": "0.2.0",
+  "description": "Make Text Invisible in HTML",
+  "main": "index.html",
+  "scripts": {
+    "test": "blah, blah blah !?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "???"
+  },
+  "keywords": [
+    "???"
+  ],
+  "author": "Eliyahu Georgios",
+  "license": "MIT"
+}
